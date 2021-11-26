@@ -1,0 +1,177 @@
+.navbar{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 3px 0px #f5f5f5;
+}
+.button-burger{
+    display: flex;
+}
+.authenticate{
+    display: flex;
+    text-align: center;
+}
+.ctn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #800080;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px;
+    color: #800080;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+.ctn:hover{
+    background: linear-gradient(95.79deg, #B771D0 0.84%, #8255C0 98.62%);
+    color: white;
+    border: none;
+}
+.ctn:not(:last-child){
+    margin-right: 3px;
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.hamburger .burger{
+    background-color: #800080;
+    border-radius: 18px;
+    width: 30px;
+    height: 4px;
+}
+
+.hamburger div:not(:last-child){
+    margin-bottom: 5px;
+}
+
+/* section1 */
+.section1{
+    background: linear-gradient(86.45deg, rgba(128, 0, 128, 0.0951653) -133.64%, rgba(128, 0, 128, 0.0756279) -63.21%, rgba(128, 0, 128, 0.0756279) -63.21%, rgba(128, 0, 128, 0.0756279) -63.19%, rgba(128, 0, 128, 0.0712419) -47.37%, rgba(128, 0, 128, 0.0592802) -4.24%, rgba(128, 0, 128, 0.0485147) 34.58%, rgba(128, 0, 128, 0.0210105) 41.77%, rgba(128, 0, 128, 0.012475) 79.16%, rgba(128, 0, 128, 0) 89.22%, rgba(128, 0, 128, 0) 105.04%, rgba(128, 0, 128, 0) 122.29%, rgba(128, 0, 128, 0) 130.92%, rgba(128, 0, 128, 0) 130.92%, rgba(128, 0, 128, 0) 130.95%);
+    text-align: center;
+
+}
+.initiative-part{
+   text-align: center;
+}
+.initiative{
+    margin: 54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #800080;
+    padding: 24px 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 3px 0px #f5f5f5;
+}
+.text{
+    color: #800080;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+.text p{
+    margin: 2px 0px;
+}
+.text p:nth-child(1){
+    font-size: 16px;
+}
+.text p:nth-child(2){
+    font-size: 24px;
+    font-weight: 700;
+    Line-height :36px;
+}
+.text button{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.explore{
+    text-align: center;
+   margin-top: 40px;
+}
+.explore .button1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #800080;
+    border: 2px solid #800080;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 14px 20px;
+}
+.explore .button2{
+    background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 16px 60px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 3px 0px #f5f5f5;
+    margin-top: 22px;
+}
+.brightenUp p:nth-child(1){
+    color:#800080;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+.brightenUp{
+    padding: 20px 50px;
+    background-color: #e0bfe0;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px -3px 7px -2px grey;
+    margin-top: 20px;
+}
+.brightenUp p:nth-child(2){
+    color:#800080;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+}
+.storyset{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.know p{
+   margin: 0;
+}
+.vector{
+    position: absolute;
+    left: 50%;
+}
+.vector img:nth-child(2){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+}
