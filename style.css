@@ -475,3 +475,112 @@
     padding: 6px 14px;
     border: none;
 }
+.interested{
+    background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
+}
+.interested > p{
+    margin: 0;
+    padding: 35px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+.buy-card{
+    background: linear-gradient(139.02deg, #FFFFFF 23.24%, rgba(255, 255, 255, 0) 124.51%);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 30px 40px;
+    position: relative;
+}
+@media(max-width:424px){
+  .buy-card{
+    margin: 30px 25px;
+  }
+}
+.buy-details{
+    display: inline-block;
+}
+
+.buy-details p:nth-child(1),.buy-details p:nth-child(2),.buy-details p:nth-child(3){
+    color: #800080;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.buy-details p:nth-child(2),.buy-details p:nth-child(3){
+    margin: 0;
+}
+.buy-details p:nth-child(1){
+    margin: 8px 0;
+}
+.buy-details p:nth-child(2){
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.51);
+}
+.buy-details p:nth-child(3){
+    text-align: end;
+    color: #000000;
+    font-size: 14px;
+}
+.buy-details p:nth-child(4){
+    color: #000000;
+    font-size: 10px;
+    color: #800080;
+}
+.know-more-in-buy{
+    text-align: center;
+}
+.know-more-in-buy button{
+    background: #800080;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    padding: 7px 45px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+}
+.save-offer{
+    background: conic-gradient(from 180deg at 50% 50%, #800080 0deg, #800080 0deg, rgba(128, 0, 128, 0.75) 22.69deg, #800080 82.69deg, rgba(128, 0, 128, 0.75) 105.19deg, #800080 172.69deg, rgba(128, 0, 128, 0.75) 193.31deg, #800080 272.07deg, rgba(128, 0, 128, 0.75) 287.07deg, #800080 360deg);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    right: -30px;
+    top: 45px;
+}
+.save-offer > div{
+    text-align: center;
+}
+.save-offer span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+   
+}
+.save-offer-curve{
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
+    left: -24px;
+    top: 50px;
+}
