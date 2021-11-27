@@ -477,6 +477,7 @@
 }
 .interested{
     background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
+    padding: 20px 0px;
 }
 .interested > p{
     margin: 0;
@@ -583,4 +584,39 @@
     background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
     left: -24px;
     top: 50px;
+}
+.footer{
+    background-color: #000000;
+    padding: 20px 10px;
+}
+.other-links h3,.contact h3,.social h3{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0;
+}
+.contact h3,.social h3{
+    font-size: 18px;
+}
+.links{
+    margin-left: 22px;
+    margin-bottom: 14px;
+}
+.links a{
+    margin: 10px 0px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.links-grid{
+    margin-left: 15px;
+}
+.links-grid a img{
+    padding: 5px;
 }
